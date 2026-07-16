@@ -5,7 +5,7 @@ const Welcome = ({ dashboardContent }) => {
     <div>
       <div className="container mx-auto">
         <p className="text-center text-[35px] sm:text-[40px] lg:text-[45px] xl:text-[50px] font-bold">
-          Welcome To <span className="text-[#FF8C01]">DFWerrands</span>
+          You are welcome to <span className="text-[#FF8C01]">MallpickUp</span>
         </p>
 
         <div className="my-6">
