@@ -36,6 +36,7 @@ import PageNotFound from './pages/PageNotFound.jsx';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import { Toaster } from 'react-hot-toast';
+import DriverOnboarding from './pages/DriverOnboarding.jsx';
 
 import { onMessageListener } from './firebase/NotificationController';
 
@@ -112,6 +113,7 @@ const App = () => {
         <Route path='/alladdress-errands' element={<PrivateRoute element={<AllAddressMain />} />} />
         <Route path='/datetime-errands' element={<PrivateRoute element={<DateTimeMain />} />} />
         <Route path='/summary-errand' element={<PrivateRoute element={<SummeryMain />} />} />
+        <Route path='/driver-onboarding' element={<DriverOnboarding />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />

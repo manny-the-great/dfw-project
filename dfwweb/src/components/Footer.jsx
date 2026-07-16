@@ -59,7 +59,7 @@ const Footer = () => {
 							</h3>
 							<ul className="space-y-5 text-[14px] ">
 								<li className="cursor-pointer" onClick={() => navigate("/about")}>About Us</li>
-								
+								<li className="cursor-pointer" onClick={() => navigate("/driver-onboarding")}>Driver Onboarding</li>
 								<li className="cursor-pointer" onClick={() => navigate("/privacy")}>Privacy Policy</li>
 								<li className="cursor-pointer" onClick={() => navigate("/terms")}>Terms & Conditions</li>
 							</ul>

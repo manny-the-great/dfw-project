@@ -144,6 +144,12 @@ const Navbar = () => {
             >
               About Us
             </Link>
+            <Link
+              to="/driver-onboarding"
+              className={`${isActive("/driver-onboarding") ? "text-[#185A96] font-semibold border-b-2 border-[#185A96]" : "text-black hover:text-[#185A96]"} font-medium`}
+            >
+              Driver Onboarding
+            </Link>
 
             {/* Conditional Rendering */}
             {(userDetails && userDetails?.role == 2 && userDetails?.otp_verified == 1) ? (
@@ -233,6 +239,12 @@ const Navbar = () => {
               className={`${isActive("/about") ? "text-[#185A96] font-semibold border-b-2 border-[#185A96]" : "text-black"} font-medium`}
             >
               About Us
+            </Link>
+            <Link
+              to="/driver-onboarding"
+              className={`${isActive("/driver-onboarding") ? "text-[#185A96] font-semibold border-b-2 border-[#185A96]" : "text-black"} font-medium`}
+            >
+              Driver Onboarding
             </Link>
 
             {(userDetails && userDetails?.role == 2 && userDetails?.otp_verified == 1) ? (
