@@ -1,0 +1,262 @@
+/* Body overflow settings */
+body {
+  overflow-x: hidden;
+}
+
+/* Table Image Styling */
+.tableimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Form Select Styling */
+.form-select {
+  padding: 0 0 0 5px;
+  background-color: #110011;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h6#tableHead {
+  margin: 0px;
+}
+.table.align-items-center td,
+.table.align-items-center th {
+  font-size: 14px;
+}
+.has-icon {
+  padding: 3px 6px;
+  font-size: 15px;
+  min-width: 33px;
+}
+ .resturent_table tr td:nth-child(6) {
+    min-width: 100px;
+  }
+.form-control {
+  border: 1px solid #ababab;
+  padding: 9px 15px;
+  color: #000 !important;
+}
+.form-control:focus {
+  border: 1px solid #000 !important;
+}
+
+.shadow-dark h6 {
+  margin: 0px !important;
+  padding: 10px 0px;
+}
+.card-body .shadow-dark {
+  background: rgb(112 112 112) !important;
+}
+@media screen and (max-width: 1360px) {
+  .form-select {
+    font-size: 12px;
+  }
+}
+
+/* Button and Table adjustments for medium screens (max-width: 1100px) */
+@media (max-width: 1100px) {
+  .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+
+  .form-select {
+    font-size: 10px;
+  }
+
+  .table i {
+    font-size: 14px;
+  }
+
+  .has-icon {
+    padding: 3px 7px;
+  }
+
+  .card-header h6 {
+    font-size: 16px;
+  }
+
+  .dropdown select {
+    font-size: 12px;
+    padding: 3px 7px;
+  }
+}
+
+/* Small screen adjustments (max-width: 1000px) */
+@media screen and (max-width: 1000px) {
+  .table th,
+  .table td {
+    font-size: 10px;
+    padding: 1px;
+  }
+
+  .table td {
+    word-wrap: break-word;
+  }
+
+  .form-select {
+    font-size: 10px;
+  }
+   .resturent_table tr td:nth-child(6) {
+    min-width: 75px;
+  }
+}
+
+/* Further adjustments for very small screens (max-width: 764px) */
+@media (max-width: 769px) {
+  #root > div {
+    display: initial !important;
+  }
+  .resturent_table tr td:nth-child(6) {
+    min-width: 250px;
+  }
+  .resturent_table tr td:nth-child(3) {
+    min-width: 180px;
+  }
+  .resturent_table tr td:nth-child(4) {
+    min-width: 180px;
+  }
+   .resturent_table tr td:nth-child(5) {
+    min-width: 280px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  .card .card-body {
+    padding: 10px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 8px;
+  }
+
+  .form-select {
+    font-size: 6px;
+    width: 60px;
+  }
+
+  .tableimg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .table i {
+    font-size: 8px;
+  }
+
+  .has-icon {
+    padding: 2px 5px;
+  }
+
+  .card-header h6 {
+    font-size: 15px;
+  }
+
+  .dropdown select {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+}
+
+/* Adjustments for screens smaller than 665px */
+
+/* Table Responsiveness */
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto; /* Prevent horizontal scrolling */
+  margin-bottom: 0; /* Optional: remove bottom margin */
+}
+
+/* Table layout settings */
+.table {
+  width: 100%;
+  table-layout: auto; /* Let columns resize based on content */
+  border-spacing: 0; /* Optional: prevent spacing between cells */
+}
+
+/* Default padding for table cells */
+.table th,
+.table td {
+  padding: 0.75rem; /* Default padding */
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* Adjust padding for medium screens */
+@media (max-width: 1200px) {
+  .table th,
+  .table td {
+    padding: 0.5rem !important; /* Reduce padding */
+  }
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 992px) {
+  .table th,
+  .table td {
+    padding: 0.25rem !important; /* Further reduce padding */
+  }
+}
+
+/* For very small screens (mobile) */
+@media (max-width: 768px) {
+  .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  .btn.add_btn {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  .form-select {
+    font-size: 14px;
+    width: 50px;
+  }
+
+  .tableimg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .table i {
+    font-size: 12px;
+  }
+
+  .card-header h6 {
+    font-size: 16px;
+  }
+
+  .dropdown select {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+  .table th,
+  .table td {
+    padding: 7px 13px !important;
+    min-width: 69px;
+    font-size: 10px;
+  }
+  .table.resturent_table th:last-child {
+    min-width: 240px;
+  }
+
+  .form-select {
+    font-size: 8px;
+    width: 100%;
+  }
+  .has-icon {
+    padding: 7px 5px;
+  }
+}

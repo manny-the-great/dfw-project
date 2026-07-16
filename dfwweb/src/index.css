@@ -1,0 +1,23 @@
+@import "tailwindcss";
+body{
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
+}
+.container{
+  
+padding: 20px 30px;
+
+}
+.custom-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.hide-scrollbar {
+    scrollbar-width: none; 
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+  .swiper-wrapper {
+    padding: 10px 0;
+}

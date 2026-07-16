@@ -1,0 +1,29 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.086);
+}
+
+#navbarHeader {
+  color: black;
+  display: block;
+  font-size: 23px;
+}
+
+#navbarToggler {
+  display: block;
+}
+@media screen and (min-width: 1493px) {
+  #navbarToggler {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  #navbarHeader {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  #navbarHeader {
+    display: none;
+  }
+}
