@@ -21,7 +21,9 @@ const DriverOnboarding = () => {
         {/* Download Buttons Section */}
         <div className="flex flex-col space-y-4 max-w-xl mx-auto mb-10">
           <a 
-            href="#" 
+            href="https://drive.google.com/uc?export=download&id=1qXycBRQ0TipDOuqakD0IMZaP1U9dQR3T"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-[#185A96] hover:bg-[#134978] text-white text-lg font-semibold py-4 px-6 rounded-lg transition duration-200"
           >
             <FaAndroid className="text-2xl text-[#A4C639]" />
